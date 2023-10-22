@@ -1,0 +1,84 @@
+body{
+  display:block;
+  width:800px;
+  height:500px;
+  background-color: rgb(227, 233, 245);
+
+}
+.title{
+  width: 300px;
+  height:700px;
+  margin:1px;
+  margin-left:100px;
+  padding-top:50px;
+  text-align: center;
+  background-color: white;
+}
+.notepage{
+  position: relative;
+  left:170px; top:-600px;
+  height:25px;
+  width:150px;
+  font-size:20px;
+  text-align: center;
+  background-color: rgb(15, 66, 163);
+  border-radius:5px;
+}
+.myNOTES{
+  position: relative;
+  top: -800px;
+  height:300px;
+  width:700px;
+ padding-left:50px; 
+ border-radius:20px;
+ box-shadow:10px black;
+ margin-left:450px;
+}
+.AddNOTE{
+  position: relative;
+  left:1120px; top: -780px;
+  width:80px;
+  height:30px;
+  background-color: red;
+  border-radius:5px;
+}
+.NYNOTE{
+  position: relative;
+  left:450px ; top:-780px;
+  font-size:24px;
+}
+.View {
+  position: relative;
+  left: 450px;
+  top: -780px;
+  font-size:18px;
+}
+.Notes-container{
+  display: flex;
+  position: relative;
+  left: 450px; top: -780px;
+  width:200px;
+  height:250px;
+  background-color: white;
+  float: left;
+  border-radius:10px;
+  justify-content: center;
+  
+}
+.Edite{
+  position: relative;
+  top:220px;right:10px;
+  width:100px;
+  background-color: whitesmoke;
+  height:20px;
+  border-radius:5px;
+}
+.delete{
+    position: relative;
+    top: 220px;
+    right:5px;
+    width: 100px;
+    background-color: whitesmoke;
+    height: 20px;
+    border-radius: 5px;
+  }
